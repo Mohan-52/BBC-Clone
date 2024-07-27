@@ -1,0 +1,173 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.logo-container{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width: 100px;
+    margin-top:10px ;
+}
+li {
+    display: inline;
+    margin-right: 10px; 
+    color: black;
+    
+    
+}
+ul{
+    list-style-type: none;
+  
+}
+
+.left-column{
+    width: 50%; 
+    margin-left: 10px;
+}
+.left-column-image{
+    width: 250px;
+}
+.left-column-h1{
+    font-size: 20px;
+}
+.middle-column{
+    margin-left: 20px;
+     width: 625px;
+
+}
+.middle-column-img{
+    width: 600px;
+    
+}
+.middle-column-h1{
+    font-size: 30px;
+}
+.anchor{
+    color: black;
+    text-decoration: none;
+}
+.right-column{
+    margin-left: 20px;
+}
+.horizontal{
+   border:  2px solid  #000000;;
+}
+.bottom-cards-imgs{
+    width: 100%;
+}
+.bottom-cards{
+    width: 46%;
+    margin-left: 2%;
+
+}
+.footer-section{
+    margin:20px;
+}
+.footer-p{
+    font-weight: bolder;
+}
+.icons{
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.footer-section ul {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+}
+.news-ul{
+    font-size: 13px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+.right-column-image{
+    width: 95%;
+}
+.article-img{
+    width: 205px;
+}
+.article-h1{
+    font-size: 20px;
+
+}
+.article-card{
+    width: 205px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-right: 8px;
+    
+   
+}
+.article-text-container{
+    padding: 10px;
+ 
+
+}
+.footer-section-ul-sec{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.main-section-top{
+    background-color: rgb(227, 199, 100) !important;
+    padding-left: 10px;
+   
+}
+.nav-icon{
+    width: 100px;
+}
+.sports-section-ul{
+    margin: 0px;
+    padding: 0px;
+   
+    margin-bottom: x;
+   
+}
+.sports-left-col-img{
+    width: 400px;
+}
+.sports-left-col-h1{
+    font-size: 25px;
+}
+.sports-left-col{
+    margin-left: 20px;
+    width:400px;
+}
+.sports-middle-col-img{
+    width: 300px;
+    height: 170px;
+}
+.sports-middle-col{
+    margin-left: 20px;
+}
+.sports-middle-co-img-h6-container{
+    width: 300px;
+    margin-right: 10px;
+}
+.news-and-business-h1{
+    color: red;
+    margin-left: 5px; 
+    font-weight: 800;
+    padding: 0;
+    margin: 0;
+    margin: -10px 0px ;
+}
+.business-h1{
+        color: #000000;
+        margin-left: 5px; 
+        font-weight: 700;
+        padding: 0;
+        margin: 0;
+        margin: -10px 0px ;
+    
+}
+
