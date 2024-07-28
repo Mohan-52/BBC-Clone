@@ -6,10 +6,11 @@
 
 .logo-container{
     text-align: center;
-    margin: 0;
-    padding: 0;
-    position: sticky;
-    top: 0px;
+  margin: 0;
+  padding: 0;
+  position: sticky;
+  top: 0; 
+  z-index: 999; 
    
     
 }
@@ -174,4 +175,5 @@ ul{
         margin: -10px 0px ;
     
 }
+
 
