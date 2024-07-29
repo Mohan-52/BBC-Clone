@@ -5,15 +5,10 @@
 }
 
 .logo-container{
-    text-align: center;
+  text-align: center;
   margin: 0;
   padding: 0;
-  position: sticky;
-  top: 0; 
-  z-index: 999; 
-   
-    
-}
+ }
 .logo{
     width: 100px;
     margin-top:10px ;
@@ -125,6 +120,7 @@ ul{
 .main-section-top{
     background-color: rgb(227, 199, 100) !important;
     padding-left: 10px;
+    margin-top: 50px;
    
 }
 .nav-icon{
@@ -176,4 +172,14 @@ ul{
     
 }
 
-
+.main-nav{
+    position: sticky;
+    top: 0; 
+    z-index: 999;
+    width: 100vw;
+    background-color: white;
+}
+.videos-container{
+    background-color: #000000;
+    padding: 10px;
+}
