@@ -11,7 +11,7 @@
  }
 .logo{
     width: 100px;
-    margin-top:10px ;
+    margin-top:10px;
 }
 li {
     display: inline;
@@ -182,4 +182,121 @@ ul{
 .videos-container{
     background-color: #000000;
     padding: 10px;
+}
+.logo-container ul li a:hover{
+    background-color: rgb(230, 232, 234);
+}
+.logo-container-tra ul li a:hover{
+    background-color: rgb(230, 232, 234);
+}
+.black-line::after{
+    content: "";
+    position: fixed;
+    top: 18%;
+    left: 28%;
+    width: 50px;
+    height: 3px;
+    background-color: #000000;
+}
+.black-line-news::before{
+    content: "";
+    position: fixed;
+    top: 18%;
+    
+    width: 50px;
+    height: 3px;
+    background-color: #000000;
+}
+.black-line-business::before{
+    content: "";
+    position: fixed;
+    top: 18%;
+    width: 58px;
+    height: 3px;
+    background-color: #000000;
+}
+.black-line-innovation::before{
+    content: "";
+    position: fixed;
+    top: 18%;
+    width: 75px;
+    height: 3px;
+    background-color: #000000;
+}
+.black-line-culture::before{
+    content: "";
+    position: fixed;
+    top: 18%;
+    width: 55px;
+    height: 3px;
+    background-color: #000000;
+}
+.logo-container-tra{
+    text-align: center;
+    margin: 0;
+   
+    
+}
+.logo-tra{
+    width: 100px;
+    margin-top:10px;
+    margin-bottom: 10px;
+
+}
+
+.black-line-tr::before{
+    
+        content: "";
+        position: fixed;
+        top: 15%;
+        width: 51px;
+        height: 3px;
+        background-color: #000000;
+
+}
+.tra{
+    margin: 10px 0px;
+}
+.travel-h1{
+    font-size: "BBC Reith Serif", "Helvetica", "Arial", "sans-serif";
+    margin: 5px;
+}
+.trvel-mid{
+    width: 100vw;
+    position: relative;
+    
+}
+.travel-mid-img{
+    width: 98%;
+    margin: 1%;
+  
+   
+    
+}
+.travel-card{
+    margin: 10px;
+    background-color: white;
+    width: 40%;
+    height: 30%;
+    position: absolute;
+    top: 120%;
+    padding: 10px;
+    margin: 5px;
+    
+  
+}
+.card-h1{
+    font-size: 40px;
+    font-family: "BBC Reith Serif", "Helvetica", "Arial", "sans-serif";
+    
+}
+.tra-holder{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 3%;
+    margin: 3%;
+    column-gap: 4%;
+}
+.tra-img1{
+    width: 88%;
 }
