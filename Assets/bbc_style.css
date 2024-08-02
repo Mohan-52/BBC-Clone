@@ -125,6 +125,7 @@ ul{
 }
 .nav-icon{
     width: 100px;
+    
 }
 .sports-section-ul{
     margin: 0px;
@@ -299,4 +300,29 @@ ul{
 }
 .tra-img1{
     width: 88%;
+}
+#icon{
+    font-size: 25px ;
+    margin: 10px 0px 0px 15px;
+}
+.first-line{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.button1{
+    border:none;
+    background-color: #000000;
+    color:white;
+    padding: 5px;
+    font-weight: 600;
+    margin: 10px 20px 0px 0px;
+}
+.button2{
+    color:#000000;
+    background-color: white;
+}
+.button2:hover{
+    background-color: #181212;
+    color: white;
 }

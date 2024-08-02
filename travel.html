@@ -1,78 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>BBC Travel</title>
-    <link
-      rel="shortcut icon"
-      href="/Assets/images/bbc favicon.png"
-      type="image/x-icon"
-    />
-    <link rel="stylesheet" href="/Assets/bbc_style.css" />
-  </head>
-  <body>
-    <!-- nav opening -->
-    <nav class="main-nav">
-      <div class="logo-container-tra">
-        <a href="/index.htm"
-          ><img src="/Assets/images/bbc iogo.png" class="logo-tra"
-        /></a>
-        <hr />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="/Assets/images/bbc favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="/Assets/bbc_style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+     <!-- nav opening -->
+     <nav class="main-nav">
 
-        <ul class="tra">
-          <li><a href="/index.htm" class="anchor">Home</a></li>
-          <li><a href="/news.html" class="anchor">News</a></li>
-          <li><a href="/sports.html" class="anchor">Sports</a></li>
-          <li><a href="/business.html" class="anchor">Business</a></li>
-          <li><a href="/innovation.html" class="anchor">Innovation</a></li>
-          <li><a href="/culture.html" class="anchor">Culture</a></li>
-          <li>
-            <a href="/travel.html" class="anchor black-line-tr">Travel</a>
-          </li>
-          <li><a href="" class="anchor">Earth</a></li>
-          <li><a href="" class="anchor">Video</a></li>
-          <li><a href="" class="anchor">Live</a></li>
-        </ul>
+        <div class="logo-container">
+            <div class="first-line">
+                <div>
+                    <i class="fa-solid fa-bars"  id="icon" ></i>
+                    <i class="fa-solid fa-magnifying-glass"  id="icon" ></i>
+                </div>
+                <a href="/index.htm"><img src="/Assets/images/bbc iogo.png" class="logo"></a>
+                <div>
+                    <button class="button1">Register</button>
+                    <button class="button1 button2">Sign In</button>
+                </div>
+            </div>
+                <hr>
+                <ul>
+                    <li><a href="/index.htm" class="anchor black-line">Home</a></li>
+                    <li><a href="/news.html" class="anchor">News</a></li>
+                    <li><a href="/sports.html" class="anchor">Sports</a></li>
+                    <li><a href="/business.html" class="anchor">Business</a></li>
+                    <li><a href="/innovation.html" class="anchor">Innovation</a></li>
+                    <li><a href="/culture.html" class="anchor">Culture</a></li>
+                    <li><a href="/travel.html" class="anchor">Travel</a></li>
+                    <li><a href="" class="anchor">Earth</a></li>
+                    <li><a href="" class="anchor">Video</a></li>
+                    <li><a href="" class="anchor">Live</a></li>
+                </ul>
 
-        <hr />
-      </div>
+                <hr/>
+           
+        </div>
+            
+
     </nav>
     <!-- nav closing -->
-
     <main>
-      <h1 class="travel-h1">Travel</h1>
-      <hr class="horizontal" />
-
-      <div class="travel-mid">
-        <img src="/Assets/images/remote-jungle.webp" class="travel-mid-img" />
-        <div class="travel-card">
-          <h1 class="card-h1">
-            A remote jungle lodge that only takes 20 guests
-          </h1>
+        <h1 class="travel-h1">Travel</h1>
+        <hr class="horizontal" />
+  
+        <div class="travel-mid">
+          <img src="/Assets/images/remote-jungle.webp" class="travel-mid-img" />
+          <div class="travel-card">
+            <h1 class="card-h1">
+              A remote jungle lodge that only takes 20 guests
+            </h1>
+            <p>
+              The Indigenous community-owned Chalalán Ecolodge offers family
+              adventures and rare wildlife encounters in the Bolivian Amazon.
+            </p>
+          </div>
+        </div>
+  
+        <div class="tra-holder">
+          <img src="/Assets/images/copenhagen.webp" class="tra-img1" />
+          <img src="/Assets/images/female-traveller.webp" class="tra-img1" />
+          <h3>Copenhagen is incentivising tourists to be good</h3>
+          <h3>The female travellers who shaped the ancient world</h3>
           <p>
-            The Indigenous community-owned Chalalán Ecolodge offers family
-            adventures and rare wildlife encounters in the Bolivian Amazon.
+            As mass tourism ignites tensions across Europe, Copenhagen looks to
+            reward travellers who perform green deeds with perks like free ice
+            cream and discounted museum entry.
+          </p>
+          <p>
+            In the 1800s, a trio of women forever changed the study and
+            understanding of ancient Egypt. So why have their legacies remained
+            overlooked?
           </p>
         </div>
-      </div>
-
-      <div class="tra-holder">
-        <img src="/Assets/images/copenhagen.webp" class="tra-img1" />
-        <img src="/Assets/images/female-traveller.webp" class="tra-img1" />
-        <h3>Copenhagen is incentivising tourists to be good</h3>
-        <h3>The female travellers who shaped the ancient world</h3>
-        <p>
-          As mass tourism ignites tensions across Europe, Copenhagen looks to
-          reward travellers who perform green deeds with perks like free ice
-          cream and discounted museum entry.
-        </p>
-        <p>
-          In the 1800s, a trio of women forever changed the study and
-          understanding of ancient Egypt. So why have their legacies remained
-          overlooked?
-        </p>
-      </div>
-    </main>
-  </body>
+      </main>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/f26c9ec4a7.js" crossorigin="anonymous"></script>
+    
+</body>
 </html>
