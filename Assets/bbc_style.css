@@ -10,7 +10,7 @@
   padding: 0;
  }
 .logo{
-    width: 100px;
+    width: 20%;
     margin-top:10px;
 }
 li {
@@ -26,22 +26,31 @@ ul{
 }
 
 .left-column{
-    width: 50%; 
-    margin-left: 10px;
+   width: 100%;
+   margin-left: 20px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+    
 }
 .left-column-image{
-    width: 250px;
+    width: 100%;
+    
 }
 .left-column-h1{
     font-size: 20px;
+    font-family: "BBC Reith Serif", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    color: #000000;
+    text-decoration: none;
 }
 .middle-column{
+    width: 100%;
     margin-left: 20px;
-     width: 625px;
-
-}
+   
+     }
 .middle-column-img{
-    width: 600px;
+    width: 100%;
     
 }
 .middle-column-h1{
@@ -52,7 +61,9 @@ ul{
     text-decoration: none;
 }
 .right-column{
-    margin-left: 20px;
+   width: 100%;
+   margin-left: 20px;
+  
 }
 .horizontal{
    border:  2px solid  #000000;;
@@ -66,7 +77,7 @@ ul{
 
 }
 .footer-section{
-    margin:20px;
+    margin:5% 1%;
 }
 .footer-p{
     font-weight: bolder;
@@ -139,6 +150,7 @@ ul{
 }
 .sports-left-col-h1{
     font-size: 25px;
+   
 }
 .sports-left-col{
     margin-left: 20px;
@@ -186,6 +198,7 @@ ul{
 }
 .logo-container ul li a:hover{
     background-color: rgb(230, 232, 234);
+    text-decoration: none;
 }
 .logo-container-tra ul li a:hover{
     background-color: rgb(230, 232, 234);
@@ -203,8 +216,7 @@ ul{
     content: "";
     position: fixed;
     top: 18%;
-    
-    width: 50px;
+    width: 48px;
     height: 3px;
     background-color: #000000;
 }
@@ -325,4 +337,114 @@ ul{
 .button2:hover{
     background-color: #181212;
     color: white;
+}
+body{
+    width: 100vw;
+    overflow-x: hidden;
+}
+.main-div{
+    display: grid;
+    grid-template-columns: 23% 49% 23%;
+    gap: 10px;
+}
+.logo-bottom{
+    width: 10%;
+}
+
+.more-news-cards{
+    display: grid;
+    grid-template-columns: 18% 18% 18% 18% 23%;
+    gap: 1%;
+    margin:10px 10px;
+}
+.more-news-cards-h4{
+    color: rgb(32, 34, 36);
+    font-family: "BBC Reith Serif", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: none;
+    text-decoration: none;
+    letter-spacing: -0.36px;
+}
+.must-watch{
+    background-color: #000000;
+    padding: 5px;
+}
+.must-watch hr{
+    background-color: rgb(255, 255, 255);
+    height: 3px;
+}
+.must-watch h3{
+    color: white;
+    font-size: 25px;
+
+}
+.must-watch-video-container{
+    display: grid;
+    grid-template-columns: 23% 23% 23% 23%;
+    gap: 1%;
+    margin: 1%;
+}
+.must-watch-video-container h3{
+    color: white;
+    font-size: 20px;
+}
+.must-watch-video-container div{
+    text-align: left;
+    color: white;
+}
+.paris{
+    display: grid;
+    grid-template-columns: 29% 69%;
+    column-gap: 1%;
+    margin: 1%;
+    align-items: center;
+}
+.paris-text{
+text-align: left;
+margin: 1% 0px;
+}
+.button3{
+    border: 2px solid #000000;
+    width: 30%;
+}
+.headings-container{
+    display: grid;
+    grid-template-columns: 19% 19% 19% 19% 19%;
+    column-gap: 1%;
+    margin-left:2% ;
+}
+.headings-container h4{
+    font-size: 20px;
+}
+a:hover{
+    text-decoration: underline;
+}
+.Industry{
+    display: grid;
+    grid-template-columns: 65% 25%;
+    column-gap: 1%;
+    align-items: center;
+    margin: 2%;
+}
+.four-column{
+    display: grid;
+    grid-template-columns: 23% 23% 23% 23%;
+    column-gap: 1%;
+    margin: 1%;
+}
+.h3{
+    margin-left: 1%;
+}
+.main-div2{
+    display: grid;
+    grid-template-columns: 23% 49% 23%;
+    gap: 10px;
+
+}
+.right-column2{
+    width: 100%;
+   margin-left: 20px;
+
 }
