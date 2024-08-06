@@ -100,27 +100,17 @@ ul{
 .right-column-image{
     width: 95%;
 }
-.article-img{
-    width: 205px;
-}
-.article-h1{
-    font-size: 20px;
+
+.more-news-cards-news{
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+    gap: 1%;
+    margin:10px 10px;
 
 }
-.article-card{
-    width: 205px;
-    margin-left: 10px;
-    margin-top: 10px;
-    border-radius: 10px;
-    margin-right: 8px;
-    
-   
-}
-.article-text-container{
-    padding: 10px;
+
  
 
-}
 .footer-section-ul-sec{
     padding: 0;
     margin: 0;
@@ -449,4 +439,8 @@ a:hover{
 }
 .d-flex1{
     display:flex;
+}
+.articles{
+    display: grid;
+    grid-template-columns: 18% 18% 19% 19% 21%;
 }
