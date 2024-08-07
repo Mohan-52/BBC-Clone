@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "BBC Reith Serif", Helvetica, Arial, sans-serif;
 }
 
 .logo-container{
@@ -163,7 +165,7 @@ ul{
     font-weight: 800;
     padding: 0;
     margin: 0;
-    margin: -10px 0px ;
+    margin: -10px 5px ;
 }
 .business-h1{
         color: #000000;
@@ -443,4 +445,11 @@ a:hover{
 .articles{
     display: grid;
     grid-template-columns: 18% 18% 19% 19% 21%;
+}
+.number{
+    color: #555252;
+    margin-right: 10px;
+}
+.headings-container h4{
+    font-size: 18px;
 }
