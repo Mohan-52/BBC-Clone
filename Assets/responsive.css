@@ -85,6 +85,13 @@
         column-gap: 1%;
         margin-left: 1%;
     }
+
+    .more-news-cards-news {
+        display: grid;
+        grid-template-columns: 49% 49%;
+        gap: 1%;
+        margin: 10px 10px;
+    }
    
 }
 @media (min-width: 320px) and (max-width: 430px) {
@@ -214,6 +221,21 @@
             width: 96%;
             margin: 0 auto;
         }
-       
+        .more-news-cards-news {
+            display: grid;
+            grid-template-columns: 100%;
+            gap: 1%;
+            margin: 10px 10px;
+        }
+        .small-device{
+            margin-top: 50px;
+        }
+        .small-device2{
+            margin-top: 150px;
+        }
+        .right-column2 {
+            width: 100%;
+            margin: 1%;
+        }
     }
    

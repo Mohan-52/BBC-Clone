@@ -205,33 +205,33 @@ ul{
 }
 .black-line-news::before{
     content: "";
-    position: fixed;
-    top: 18%;
-    width: 48px;
+    position: absolute;
+    top: 90%;
+    width: 50px;
     height: 3px;
     background-color: #000000;
 }
 .black-line-business::before{
     content: "";
-    position: fixed;
-    top: 18%;
-    width: 58px;
+    position: absolute;
+    top: 90%;
+    width: 50px;
     height: 3px;
     background-color: #000000;
 }
 .black-line-innovation::before{
     content: "";
-    position: fixed;
-    top: 18%;
-    width: 75px;
-    height: 3px;
-    background-color: #000000;
+        position: absolute;
+        top: 90%;
+        width: 50px;
+        height: 3px;
+        background-color: #000000;
 }
 .black-line-culture::before{
     content: "";
-    position: fixed;
-    top: 18%;
-    width: 55px;
+    position: absolute;
+    top: 90%;
+    width: 50px;
     height: 3px;
     background-color: #000000;
 }
@@ -250,12 +250,12 @@ ul{
 
 .black-line-tr::before{
     
-        content: "";
-        position: fixed;
-        top: 15%;
-        width: 51px;
-        height: 3px;
-        background-color: #000000;
+    content: "";
+    position: absolute;
+    top: 90%;
+    width: 50px;
+    height: 3px;
+    background-color: #000000;
 
 }
 .tra{
