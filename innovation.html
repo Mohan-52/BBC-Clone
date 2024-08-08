@@ -7,6 +7,7 @@
     <link rel="shortcut icon" href="/Assets/images/bbc favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="/Assets/bbc_style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="/Assets/responsive.css">
     
    
 </head>
@@ -15,18 +16,18 @@
     <nav class="main-nav">
             <div class="logo-container">
                 <div class="first-line">
-                    <div>
+                    <div class="nav-icon-container">
                         <i class="fa-solid fa-bars"  id="icon" ></i>
                         <i class="fa-solid fa-magnifying-glass"  id="icon" ></i>
                     </div>
                     <a href="/index.htm"><img src="/Assets/images/bbc iogo.png" class="logo"></a>
-                    <div>
+                    <div class="nav-button-container">
                         <button class="button1">Register</button>
                         <button class="button1 button2">Sign In</button>
                     </div>
                 </div>
                     <hr>
-                    <ul>
+                    <ul class="nav-hr">
                         <li><a href="/index.htm" class="anchor">Home</a></li>
                         <li><a href="/news.html" class="anchor">News</a></li>
                         <li><a href="/sports.html" class="anchor">Sports</a></li>
@@ -45,7 +46,7 @@
           <!-- nav closing -->
             <div class="logo-container">
                
-                <ul class="news-ul">
+                <ul class="news-ul nav-hr">
                     <li><a href="" class="anchor">Technology</a></li>
                     <li><a href="" class="anchor">Science & Health</a></li>
                     <li><a href="" class="anchor">Artificial Intelligence</a></li>
@@ -85,81 +86,212 @@
                 
                      <!-- article opening -->
                 
-<article>
-                    <div class="d-flex">
-                        <!-- first article start -->
-                        <div class="d-flex flex-column">
-                            <div class="article-card shadow" data-aos="fade-up">
-                                <img src="/Assets/images/eu.webp" class="article-img"/>
-                                    <div class="article-text-container">
-                                        <h1 class="article-h1"><a href="" class="anchor">EU regulator rejects Alzheimer's drug lecanemab</a></h1>
-                                        <p>It said the benefits of the treatment did not outweigh the risk of serious side effects.</p>
-                                    </div>
-                            </div>
-                        </div>
+ <section>
+        <div class="more-news-cards">
+            <div>
+                <img src="/Assets/images/first.webp" class="left-column-image"/>
+                <h4 ><a href="" class="more-news-cards-h4">First gene-editing therapy may cure blood disorder</a></h4>
+                <p>The treatment for beta thalassaemia is to be offered on the NHS and uses Nobel Prize-winning technology.</p>
+            </div>
+            <div>
+                <img src="/Assets/images/real.webp" class="left-column-image"/>
+                <h4><a href="" class="more-news-cards-h4">The real story of the news website accused of fuelling riots</a></h4>
+                <p>The BBC tracks down a Canadian hockey player, a dad in Pakistan and a Texan named Kevin linked to Channel3Now.</p>
+            </div>
+            <div>
+                <img src="/Assets/images/tech-decoded.webp" class="left-column-image"/>
+                <h4><a href="" class="more-news-cards-h4">Whisper it, but is now a good time to holiday in Paris?</a></h4>
+                <p>Hotels and restaurants are dropping prices after unexpected quietness in the city during the Olympics.</p>
+            </div>
+            <div>
+                <img src="/Assets/images/could-reading.webp" class="left-column-image"/>
+                <h4><a href="" class="more-news-cards-h4">Could reading instruction manuals become a thing of the past?</a></h4>
+                <p>AI can now read instruction manuals on behalf of the human user and give its advice.</p>
+            </div>
+            <div>
                 
-                        <!-- first article end -->
-                
-                        <!-- second article start -->
-                
-                        <div class="d-flex flex-column">
-                            <div class="article-card shadow" data-aos="fade-up">
-                                <img src="/Assets/images/actors-strike.webp" class="article-img"/>
-                                    <div class="article-text-container">
-                                        <h1 class="article-h1"><a href="" class="anchor">Actors go on strike over video games AI threat</a></h1>
-                                        <p> The union has been in talks with big games studios, like Activision and Walt Disney, for 18 months.</p>
-                                    </div>
-                            </div>
-                        </div> 
-                        
-                        <!-- second article end -->
-                
-                        <!-- third article start -->
-                
-                        <div class="d-flex flex-column">
-                            <div class="article-card shadow" data-aos="fade-up">
-                                <img src="/Assets/images/global-self.webp" class="article-img"/>
-                                    <div class="article-text-container">
-                                        <h1 class="article-h1"><a href="" class="anchor">What's behind the global self-storage boom?</a></h1>
-                                        <p>Rising rents, e-commerce and available property are contributing to a boom in self-storage.</p>
-                                    </div>
-                            </div>
-                
-                        </div> 
-                        
-                        <!-- third article end -->
-                
-                        <!-- fourth article start -->
-                        <div class="d-flex flex-column">
-                            <div class="article-card shadow" data-aos="fade-up">
-                                <img src="/Assets/images/tech-decoded.webp" class="article-img"/>
-                                    <div class="article-text-container">
-                                        <h1 class="article-h1"><a href="" class="anchor">Tech Decoded: Sign up to our newsletter</a></h1>
-                                        <p> Get timely, trusted tech news from BBC correspondents around the world, every Monday and Friday.</p>
-                                    </div>
-                            </div>
-                        </div>  
-                        
-                         <!-- fourth article end -->
-                
-                
-                        <div class="right-column d-flex flex-column justify-content-center" data-aos="fade-left">
-                            <h1 class="left-column-h1"><a href="" class="anchor">Lawmaker uses AI voice clone to address Congress</a></h1>
-                            <p>Virginia Congresswoman Jennifer Wexton has a rare neurological condition that makes it difficult for her to speak.</p>
-                            <h1 class="left-column-h1"><a href="" class="anchor">ChatGPT reveals search feature in Google challenge</a></h1>
-                            <p>OpenAI is working on adding new search powers to its artificial intelligence (AI) bot.</p>
-                            
-                        </div>
-                    </div>
-                
-</article>
+                <h4><a href="" class="more-news-cards-h4">How your phone can detect earthquakes</a></h4>
+                <p>Fifty years since the first mobile phone call, the technology we carry around in our pocket is helping to create the world's biggest earthquake detection system.</p>
+                 
+                <h4><a href="" class="more-news-cards-h4">The gravity-defying physics of breakdancing</a></h4>
+                <p>The world's best breakdancers will be spinning on their heads and freezing in eye-popping poses as breaking debuts an Olympic Sport in Paris. This is how they pull off their moves.</p>
+            </div>
+        </div>
+
+
+        <hr>
+        <h3 class="h3">Features</h3>
+        <div class="paris">
+            <div class="paris-text">
+                <h2>China will send pandas to zoos in San Diego and Spain - what it means</h2>
+                <p>With the latest panda additions to the San Diego Zoo, 'panda diplomacy' is back in the vernacular. Here's what it means and why it's so important.</p>
+                <button class="button1 button2 button3">See More</button>
+            </div>
+            <div>
+                <img src="/Assets/images/panda.webp" class="left-column-image"/>
+            </div>
+        </div>
+    </section>
+
+
+    <section>
+        <hr />
+       
+        <div class="more-news-3">
+          <div>
+            <img src="/Assets/images/aiis.webp" class="left-column-image" />
+            <h4><a href="" class="more-news-cards-h4">AI is hunting cyberbullies at the Olympics</a></h4>
+            <p>An AI algorithm is wading through the oceans of content social media users are posting about the Olympics with a singular mission: neutralising online abuse.</p>
+          </div>
+          <div>
+            <img src="/Assets/images/under.webp" class="left-column-image" />
+            <h4><a href="" class="more-news-cards-h4">Why do we love the underdog?</a></h4>
+            <p>From the US election to the Olympic Games, we often root for those considered disadvantaged. Why we do so may reveal more about ourselves than them.</p>
+          </div>
+          <div>
+            <img src="/Assets/images/lyme.webp" class="left-column-image" />
+            <h4><a href="" class="more-news-cards-h4">Why Lyme disease can be so hard to diagnose</a></h4>
+            <p>Climate change is contributing to the global rise of Lyme disease. But many physicians are struggling to recognise its symptoms.</p>
+          </div>
+        </div>
+
+        <div class="more-news-3">
+            <div>
+              <img src="/Assets/images/howmale.webp" class="left-column-image" />
+              <h4>
+                <a href="" class="more-news-cards-h4">How male drinking affects babies</a>
+              </h4>
+              <p>
+                A father's alcohol consumption has long been overshadowed by the focus on what a mother drinks. But that could be about to change following new research.
+              </p>
+            </div>
+            <div>
+              <img src="/Assets/images/sports.webp" class="left-column-image" />
+              <h4>
+                <a href="" class="more-news-cards-h4">The sports where women outperform men</a>
+              </h4>
+              <p>
+                From ultrarunning to shooting sports, in some competitions women have the edge.
+              </p>
+            </div>
+            <div>
+              <img src="/Assets/images/is.webp" class="left-column-image" />
+              <h4>
+                <a href="" class="more-news-cards-h4"
+                  >Is eating while we watch TV really that bad?</a
+                >
+              </h4>
+              <p>
+                With so many great shows and films to watch on television these days, it is tempting to catch up while eating. But is a TV dinner really a good idea?
+              </p>
+            </div>
+          </div>
+    </section>
+
+
+    <section>
+        <div class="must-watch">
+            <hr/>
+            <h3>watch</h3>
+            <div class="must-watch-video-container">
+                <div>
+                    <img src="/Assets/images/great.webp" class="left-column-image"/>
+                    <h3><a>Great white shark boat spotted in Northumberland</a></h3>
+                    <p>"To get it out into the ocean...a dream come true. A small dream but, you know, some kind of dream."</p>
+                </div>
+                <div>
+                    <img src="/Assets/images/rare.webp" class="left-column-image"/>
+                    <h3><a>Rare 'corpse flower' blooms in Edinburgh</a></h3>
+                    <p>The Titan Arum plant produces a stench that has been compared to decaying flesh or smelly socks.</p>
+                </div>
+                <div>
+                    <img src="/Assets/images/law.webp" class="left-column-image"/>
+                    <h3><a>Lawmaker uses AI voice clone to address Congress</a></h3>
+                    <p>Virginia Congresswoman Jennifer Wexton has a rare neurological condition that makes it difficult for her to speak.</p>
+                </div>
+                <div>
+                    <img src="/Assets/images/walk.webp" class="left-column-image"/>
+                    <h3><a>Why is the Seine only 'kind of clean'?Walking through time at the Natural History Museum</a></h3>
+                    <p>A new bronze diplodocus and garden exploring the origins of time opens at the world-famous museum.</p>
+                </div>
+            </div>    
+
+        </div>
+    </section>
+
+
+    <section>
+        <hr />
+        <h3 class="h3">More Innovation</h3>
+        <div class="heading-image">
+          <div class="bottom-lines-imgs">
+            <div>
+              <h4><a href="" class="more-news-cards-h4" id="house">Musk shares faked far-right 'detainment camp' for rioters post</a></h4>
+              <p>Property sales will pick up in the autumn owing to a change in the "mood music" in the housing market, surveyors say.</p>
+            </div>
+            <img src="/Assets/images/musk.webp" class="middle-column-img"/>
+          </div>
+  
+          <hr />
+  
+          <div class="bottom-lines-imgs">
+            <div>
+              <h4><a href="" class="more-news-cards-h4" id="house">Rate cuts to fuel house price rises, Halifax says</a></h4>
+              <p>The mortgage lender says lower borrowing costs could fuel a"modest" rise in house prices.</p>
+            </div>
+            <img src="/Assets/images/on.webp" class="middle-column-img" />
+          </div>
+  
+          <hr />
+  
+          <div class="bottom-lines-imgs">
+            <div>
+              <h4>
+                <a href="" class="more-news-cards-h4" id="house">Government concerned by immigration lawyer 'hitlist'</a></h4>
+              <p>Chancellor Rachel Reeves has refused to rule out whether she will increase the rate of capital gains tax in her autumn Budget.</p>
+            </div>
+            <img src="/Assets/images/gov.webp" class="middle-column-img"/>
+          </div>
+  
+          <hr />
+  
+          <div class="bottom-lines-imgs">
+            <div>
+              <h4><a href="" class="more-news-cards-h4" id="house">Who is Elon Musk and what is his net worth?</a></h4>
+              <p>Property sales will pick up in the autumn owing to a change in the"mood music" in the housing market, surveyors say.</p>
+            </div>
+            <img src="/Assets/images/musk2.webp" class="middle-column-img"/>
+          </div>
+  
+          <hr />
+  
+          <div class="bottom-lines-imgs">
+              <div>
+                  <h4><a href="" class="more-news-cards-h4" id="house">What could Google monopoly ruling mean for you?</a></h4>
+                  <p>that he has "no choice" but to move the flagship office of the social platform out of San Francisco.</p>
+                </div>
+            <img src="/Assets/images/google.webp" class="middle-column-img"/>
+          </div>
+  
+          <hr />
+  
+          <div class="bottom-lines-imgs">
+              <div>
+                  <h4><a href="" class="more-news-cards-h4" id="house">Government shelves £1.3bn UK tech and AI plans</a></h4>
+                  <p>US stock markets fell sharply on Monday following falls in Europe and Asia as fears rose that the American economy is heading for a slowdown.</p>
+                </div>
+            <img src="/Assets/images/ser.webp" class="middle-column-img"/>
+          </div>
+        </div>
+        
+      </section>
                     <!-- article ended -->
      
                 
                     <!-- footer opening -->
 <footer>
                         <div class="footer-section">
-                            <a href="/index.htm"><img src="/Assets/images/bbc iogo.png" class="logo"></a>
+                            <a href="/index.htm"><img src="/Assets/images/bbc iogo.png" class="logo-bottom"></a>
                             <ul class="footer-section ul">
                                 <li><a href="/index.htm" class="anchor">Home</a></li>
                                 <li><a href="/news.html" class="anchor">News</a></li>
