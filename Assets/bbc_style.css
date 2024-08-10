@@ -367,6 +367,18 @@ body{
     background-color: #000000;
     padding: 5px;
 }
+.must-watch2{
+    background-color: #000000;
+    padding: 5px;
+}
+.must-watch2 hr{
+    background-color: rgb(255, 255, 255);
+    height: 3px;
+
+}
+.must-watch2 h3{
+    color: white;
+}
 .must-watch hr{
     background-color: rgb(255, 255, 255);
     height: 3px;
@@ -523,4 +535,8 @@ body {
 }
 .live-card h1{
     font-size: 30px;
+}
+video{
+    width: 100vw;
+    height: 80vh;
 }
