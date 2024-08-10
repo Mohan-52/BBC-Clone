@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>BBC Travel</title>
     <link rel="shortcut icon" href="/Assets/images/bbc favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="/Assets/bbc_style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="/Assets/responsive.css">
 </head>
 <body>
      <!-- nav opening -->
@@ -14,18 +15,18 @@
 
         <div class="logo-container">
             <div class="first-line">
-                <div>
+                <div class="nav-icon-container">
                     <i class="fa-solid fa-bars"  id="icon" ></i>
                     <i class="fa-solid fa-magnifying-glass"  id="icon" ></i>
                 </div>
                 <a href="/index.htm"><img src="/Assets/images/bbc iogo.png" class="logo"></a>
-                <div>
+                <div class="nav-button-container">
                     <button class="button1">Register</button>
                     <button class="button1 button2">Sign In</button>
                 </div>
             </div>
                 <hr>
-                <ul>
+                <ul class="nav-hr">
                     <li><a href="/index.htm" class="anchor" >Home</a></li>
                     <li><a href="/news.html" class="anchor">News</a></li>
                     <li><a href="/sports.html" class="anchor">Sports</a></li>
@@ -63,22 +64,336 @@
         </div>
   
         <div class="tra-holder">
-          <img src="/Assets/images/copenhagen.webp" class="tra-img1" />
-          <img src="/Assets/images/female-traveller.webp" class="tra-img1" />
-          <h3>Copenhagen is incentivising tourists to be good</h3>
-          <h3>The female travellers who shaped the ancient world</h3>
-          <p>
-            As mass tourism ignites tensions across Europe, Copenhagen looks to
-            reward travellers who perform green deeds with perks like free ice
-            cream and discounted museum entry.
-          </p>
-          <p>
-            In the 1800s, a trio of women forever changed the study and
-            understanding of ancient Egypt. So why have their legacies remained
-            overlooked?
-          </p>
+          <div>
+            <img src="/Assets/images/copenhagen.webp" class="tra-img1" />
+            <h3 id="house">Copenhagen is incentivising tourists to be good</h3>
+            <p>
+              As mass tourism ignites tensions across Europe, Copenhagen looks to
+              reward travellers who perform green deeds with perks like free ice
+              cream and discounted museum entry.
+            </p>
+
+          </div>
+
+         <div>
+            <img src="/Assets/images/female-traveller.webp" class="tra-img1" />
+            
+            <h3 id="house">The female travellers who shaped the ancient world</h3>
+            
+            <p>
+              In the 1800s, a trio of women forever changed the study and
+              understanding of ancient Egypt. So why have their legacies remained
+              overlooked?
+            </p>
         </div>
+        </div>
+
+        <hr>
+        <h3 class="h3 mb-2">In the news</h3>
+        <div class="headings-container">
+          <h4><a href="" class="anchor">How would you react to prison museum's 'dark tourism'?</a></h4>
+          <h4><a href="" class="anchor">Airport unveils ambition for long haul flights</a></h4>
+          <h4><a href="" class="anchor">How would you react to prison museum's 'dark tourism'?</a></h4>
+          <h4><a href="" class="anchor">Former Qantas boss exit pay slashed by millions</a></h4>
+          <h4><a href="" class="anchor">Sun, sea and Santa: Beachgoers celebrate 'Bridmas'</a></h4>
+      </div>
       </main>
+
+
+      <section>
+        <hr />
+        <h3 class="h3">Adventures</h3>
+           
+        <div class="more-news-3">
+          <div>
+            <img src="/Assets/images/coldhawaii.webp" class="left-column-image" />
+            <h4><a href="" class="more-news-cards-h4">'Cold Hawaii': Denmark's unlikely surf town</a></h4>
+            <p>Klitmøller has been transformed from a fishing village into a buzzing and gnarly surf spot, where newcomers are welcomed to join the growing community of transplants.</p>
+          </div>
+          <div>
+            <img src="/Assets/images/alternative.webp" class="left-column-image" />
+            <h4><a href="" class="more-news-cards-h4">An alternative to the Italian lakes</a></h4>
+            <p>Italy's northern lakes like Como, Garda and Maggiore may shine on social media, but the Alpine lakes of France offer a refreshing – and less crowded – alternative.</p>
+          </div>
+          <div>
+            <img src="/Assets/images/remote-jungle.webp" class="left-column-image" />
+            <h4><a href="" class="more-news-cards-h4">A remote jungle lodge that only takes 20 guests</a></h4>
+            <p>The Indigenous community-owned Chalalán Ecolodge offers family adventures and rare wildlife encounters in the Bolivian Amazon.</p>
+          </div>
+        </div>
+
+    
+        <div class="more-news-3">
+            <div>
+              <img src="/Assets/images/sunbbed.webp" class="left-column-image" />
+              <h4><a href="" class="more-news-cards-h4">The snubbed Italian town that's now winning awards</a></h4>
+              <p>Despite the world's obsession with Tuscany as a holiday destination, Grosseto seemed to have been left off the tourist map. However with its medieval centre and proximity to regional parks and beaches, it's now showing Italy how tourism can be done.</p>
+            </div>
+            <div>
+              <img src="/Assets/images/france.webp" class="left-column-image" />
+              <h4><a href="" class="more-news-cards-h4">France's centuries-old mountain farm stays</a></h4>
+              <p>Reachable via ancient mule trails, these centuries-old farms-turned-inns serve some of France's most historic cheeses and offer a glimpse at the nation's pastoral past.</p>
+            </div>
+            <div>
+              <img src="/Assets/images/cannon.webp" class="left-column-image" />
+              <h4><a href="" class="more-news-cards-h4">Cannonball factory and church revealed under dried-up Spanish lake</a></h4>
+              <p>Unexpected wonders emerged when climate change-induced drought drained a Catalonia reservoir, including an 18th-Century cannonball factory.</p>
+            </div>
+          </div>
+
+          <div class="travel-mid">
+            <img src="/Assets/images/five.webp" class="travel-mid-img" />
+            
+          </div>
+
+          <hr>
+          <h3 class="h3">The SpeciaList</h3>
+          <div class="more-news-cards-news">
+            <div>
+              <img src="/Assets/images/olympicroad.webp" class="left-column-image" />
+              <h4><a href="" class="more-news-cards-h4">An Olympic road cyclist's guide to Italy</a></h4>
+              <p>Alberto Bettiol is racing for Italy at the Paris Olympics but can't wait to head home for a joyride. Here are his top Italian rides, from pilgrimage trails to e-biking through Rome.</p>
+            </div>
+            <div>
+              <img src="/Assets/images/six.webp" class="left-column-image" />
+              <h4><a href="" class="more-news-cards-h4">Six of the best lobster rolls in Maine</a></h4>
+              <p>Heather Strout Thompson has been hauling lobster since traps were wooden. Here are her top lobster rolls in her home state of Maine, from Chipman's Wharf to Luke's Lobster.</p>
+            </div>
+            <div>
+              <img src="/Assets/images/bindi.webp" class="left-column-image"/>
+              <h4><a href="" class="more-news-cards-h4">Bindi Irwin's top outdoor adventures in Australia</a></h4>
+              <p>This wildlife warrior is continuing her family legacy of protecting the Earth. Here are her top Australian outdoor picks, from the Dinosaur Trail to snorkelling at Lady Elliot Island.</p>
+            </div>
+            <div>
+              <img src="/Assets/images/guide.webp" class="left-column-image"/>
+              <h4><a href="" class="more-news-cards-h4">Guide to Helsinki's happiest places</a></h4>
+              <p>Finland is the world's happiest country – and professional "happiness hacker" Lena Salmi knows where to find Helsinki's happiest spots, from sea pools to graffiti walls.</p>
+            </div>
+          </div>
+          <div class="more-news-cards-news">
+            <div>
+              <img src="/Assets/images/pastry.webp" class="left-column-image" />
+              <h4><a href="" class="more-news-cards-h4">A pastry chef's favourite bakeries in Paris</a></h4>
+              <p>David Lebovitz shares his ultimate guide, from croissants at Tout Autour Du Pain to babka at Mamiche.</p>
+            </div>
+            <div>
+              <img src="/Assets/images/andrew.webp" class="left-column-image" />
+              <h4><a href="" class="more-news-cards-h4">Chef Andrew Zimmern's favourite US restaurants</a></h4>
+              <p>The celebrity chef has eaten it all, in every country. Here are his most memorable US dining experiences, from pizza at L&B Spumoni Gardens to cebiche at La Mar.</p>
+            </div>
+            <div>
+              <img src="/Assets/images/firstl.webp" class="left-column-image"/>
+              <h4><a href="" class="more-news-cards-h4">A First Lady's guide to Iceland</a></h4>
+              <p>Eliza Reid moved to Iceland 20 years ago for love and now she's the First Lady. Here are her favourite ways to enjoy a "chill" Icelandic weekend.</p>
+            </div>
+            <div>
+              <img src="/Assets/images/bestpi.webp" class="left-column-image"/>
+              <h4><a href="" class="more-news-cards-h4">Where to get the best pizza in Chicago</a></h4>
+              <p>Local pizza expert Steve Dolinsky wants you to know that Chicago pies aren't just deep dish. Here are his favourites, from the stuffed pizza at Nancy's to tavern-style pies at Pat's.</p>
+            </div>
+          </div>
+
+          <div class="must-watch">
+            <hr/>
+            <h3>Must watch</h3>
+            <div class="must-watch-video-container">
+                <div>
+                    <img src="/Assets/images/surprising.webp" class="left-column-image"/>
+                    <h3><a>A surprising Welsh enclave in Patagonia</a></h3>
+                    <p>In 1865, 150 Welsh immigrants fled to Argentina, discovering a new world far from home.</p>
+                </div>
+                <div>
+                    <img src="/Assets/images/turkey.webp" class="left-column-image"/>
+                    <h3><a>Turkey's answer to 'Burning Man'</a></h3>
+                    <p>A music and art extravaganza takes place in an 'otherworldly' landscape amid unique volcanic rock formations.</p>
+                </div>
+                <div class="must-watch-3">
+                    <img src="/Assets/images/senima.webp" class="left-column-image"/>
+                    <h3><a>Semma: A rare taste of South India in Manhattan</a></h3>
+                    <p>At Michelin-starred Semma, chef Vijay Kumar brings deeply personal dishes from his childhood to the plate.</p>
+                </div>
+                <div class="must-watch-3">
+                    <img src="/Assets/images/sushi.webp" class="left-column-image"/>
+                    <h3><a>Sushi master brings authentic Japanese techniques to NYC</a></h3>
+                    <p>At Icca, Japanese sushi master chef Kazushige Suzuki blends ancient methods with other cuisines.</p>
+                </div>
+            </div>    
+
+        </div>
+    
+        <hr>
+        <h3 class="h3">Green Gateways</h3>
+        <div class="tra-holder">
+          <div>
+            <img src="/Assets/images/perfect-beach.webp" class="tra-img1" />
+            <h3 id="house">The perfect beach that Instagram didn't ruin</h3>
+            <p>
+              When the tide is out and the weather conditions are just right, the shores of Fukutsu transform into a 3km, crystal-clear mirror.
+            </p>
+
+          </div>
+
+         <div>
+            <img src="/Assets/images/britains.webp" class="tra-img1" />
+            
+            <h3 id="house">Britain's myth-shrouded, sacred wetlands</h3>
+            
+            <p>
+              Legends will always swirl around Glastonbury, but conservation projects like the Avalon Marshes point to a future that transcends the mythical and has real benefits for our planet.
+            </p>
+        </div>
+        </div>
+        <div class="tra-holder">
+          <div>
+            <img src="/Assets/images/scotish.webp" class="tra-img1" />
+            <h3 id="house">The Scottish isle you can only visit on a day trip</h3>
+            <p>
+              Every spring, almost 100,000 seabirds – guillemots, great skuas, razorbills and puffins – descend on the small island of Handa, just off Scotland's far north-west coast.
+            </p>
+
+          </div>
+
+         <div>
+            <img src="/Assets/images/hiking.webp" class="tra-img1" />
+            
+            <h3 id="house">Hiking the world's largest urban forest</h3>
+            
+            <p>
+              After the Tijuca forest was decimated by colonial plantations, an ambitious rewilding programme is now aiming to ensure the survival of Rio de Janeiro's ancient rainforest.
+            </p>
+        </div>
+        </div>
+
+        <hr>
+        <h3 class="h3">World's Table</h3>
+        <div class="more-news-cards-news">
+          <div>
+            <img src="/Assets/images/caribbean.webp" class="left-column-image" />
+            <h4><a href="" class="more-news-cards-h4">The Caribbean's cooling, healthy drink for summer</a></h4>
+            <p>Plucked from the ocean, Trinidad's answer to the summer milkshake is now part of a frenzied craze around the world.</p>
+          </div>
+          <div>
+            <img src="/Assets/images/europe.webp" class="left-column-image" />
+            <h4><a href="" class="more-news-cards-h4">Europe's surprising tea-drinking champions</a></h4>
+            <p>The world's most prolific tea drinkers are not in the UK or in Ireland, but in a little-known German region that has developed a unique and fascinating tradition.</p>
+          </div>
+          <div>
+            <img src="/Assets/images/turkish.webp" class="left-column-image"/>
+            <h4><a href="" class="more-news-cards-h4">The Turkish ice cream eaten with a knife and fork</a></h4>
+            <p>Dondurma isn't like any other ice cream you'll find, and the epicentre of its production is still reeling from the powerful earthquakes that decimated the nation.</p>
+          </div>
+          <div>
+            <img src="/Assets/images/indias.webp" class="left-column-image"/>
+            <h4><a href="" class="more-news-cards-h4">India's cooling drinks to beat the heat</a></h4>
+            <p>This year, when India experienced its longest ever heatwave, locals turned to cool drinks like never before.</p>
+          </div>
+        </div>
+        
+
+
+        <hr />
+        <h3 class="h3">More on Travel</h3>
+        <div class="heading-image">
+          <div class="bottom-lines-imgs">
+            <div>
+              <h4><a href="" class="more-news-cards-h4" id="house">New Turkish-built CalMac ferry delayed by two months</a></h4>
+              <p>Property sales will pick up in the autumn owing to a change in the "mood music" in the housing market, surveyors say.</p>
+            </div>
+            <img src="/Assets/images/ships.webp" class="middle-column-img"/>
+          </div>
+  
+          <hr />
+  
+          <div class="bottom-lines-imgs">
+            <div>
+              <h4><a href="" class="more-news-cards-h4" id="house">'End of an era' as bus builder retires after 50 years</a></h4>
+              <p>The mortgage lender says lower borrowing costs could fuel a"modest" rise in house prices.</p>
+            </div>
+            <img src="/Assets/images/endofera.webp" class="middle-column-img" />
+          </div>
+  
+          <hr />
+  
+          <div class="bottom-lines-imgs">
+            <div>
+              <h4>
+                <a href="" class="more-news-cards-h4" id="house">MP wants clarity over plans for station reopening</a></h4>
+              <p>Chancellor Rachel Reeves has refused to rule out whether she will increase the rate of capital gains tax in her autumn Budget.</p>
+            </div>
+            <img src="/Assets/images/train.webp" class="middle-column-img"/>
+          </div>
+  
+          <hr />
+  
+          <div class="bottom-lines-imgs">
+            <div>
+              <h4><a href="" class="more-news-cards-h4" id="house">Park and ride bus service closes due to low demand</a></h4>
+              <p>Property sales will pick up in the autumn owing to a change in the"mood music" in the housing market, surveyors say.</p>
+            </div>
+            <img src="/Assets/images/park.webp" class="middle-column-img"/>
+          </div>
+  
+          <hr />
+  
+          <div class="bottom-lines-imgs">
+              <div>
+                  <h4><a href="" class="more-news-cards-h4" id="house">Feedback wanted on Manx transport strategy aims</a></h4>
+                  <p>that he has "no choice" but to move the flagship office of the social platform out of San Francisco.</p>
+                </div>
+            <img src="/Assets/images/feedback.webp" class="middle-column-img"/>
+          </div>
+  
+          <hr />
+  
+          <div class="bottom-lines-imgs">
+              <div>
+                  <h4><a href="" class="more-news-cards-h4" id="house">What happens when ships dodge hurricanes</a></h4>
+                  <p>US stock markets fell sharply on Monday following falls in Europe and Asia as fears rose.</p>
+                </div>
+            <img src="/Assets/images/dodge.webp" class="middle-column-img"/>
+          </div>
+        </div>
+      </section>
+
+
+      <footer>
+        <div class="footer-section">
+            <a href="/index.htm"><img src="/Assets/images/bbc iogo.png" class="logo-bottom"></a>
+            <ul class="footer-section ul">
+                <li><a href="" class="anchor">Home</a></li>
+                <li><a href="/news.html" class="anchor">News</a></li>
+                <li><a href="/sports.html" class="anchor">Sports</a></li>
+                <li><a href="/business.html" class="anchor">Business</a></li>
+                <li><a href="/innovation.html" class="anchor">Innovation</a></li>
+                <li><a href="/culture.html" class="anchor">Culture</a></li>
+                <li><a href="/travel.html" class="anchor">Travel</a></li>
+                <li><a href="" class="anchor">Earth</a></li>
+                <li><a href="" class="anchor">Video</a></li>
+                <li><a href="" class="anchor">Live</a></li>
+            </ul>
+                <div class="d-flex1">
+                    <p class="footer-p">Follow BBC on:</p>
+                        <div style="margin-left: 20px;">
+                            <i class="fa-brands fa-square-x-twitter icons"></i>
+                            <i class="fa-brands fa-facebook icons"></i>
+                            <i class="fa-brands fa-tiktok icons"></i>
+                            <i class="fa-brands fa-linkedin icons"></i>
+                            <i class="fa-brands fa-youtube icons"></i>
+                        </div>
+                </div>
+                <ul class="footer-section-ul-sec">
+                    <li><a href="" class="anchor">Terms of Use</a></li>
+                    <li><a href="/news.html" class="anchor">About the BBC</a></li>
+                    <li><a href="/sports.html" class="anchor">Privacy Policy</a></li>
+                    <li><a href="" class="anchor">Cookies</a></li>
+                    <li><a href="" class="anchor">Accessibility Help</a></li>
+                    <li><a href="" class="anchor">Contact the BBC </a></li>
+                    <li><a href="" class="anchor">Advertise with us</a></li>
+                    <li><a href="" class="anchor">Do not share or sell my info</a></li>
+                    <li><a href="" class="anchor">contact technical support</a></li>
+                </ul>
+        </div>
+</footer>  
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/f26c9ec4a7.js" crossorigin="anonymous"></script>

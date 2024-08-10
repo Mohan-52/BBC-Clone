@@ -7,7 +7,7 @@
     <link rel="shortcut icon" href="/Assets/images/bbc favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="/Assets/bbc_style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="/Assets/responsive.css">
 </head>
 <body>
     
@@ -15,18 +15,18 @@
 <nav class="main-nav">
             <div class="logo-container">
                 <div class="first-line">
-                    <div>
+                    <div class="nav-icon-container">
                         <i class="fa-solid fa-bars"  id="icon" ></i>
                         <i class="fa-solid fa-magnifying-glass"  id="icon" ></i>
                     </div>
                     <a href="/index.htm"><img src="/Assets/images/bbc iogo.png" class="logo"></a>
-                    <div>
+                    <div class="nav-button-container">
                         <button class="button1">Register</button>
                         <button class="button1 button2">Sign In</button>
                     </div>
                 </div>
                     <hr>
-                    <ul>
+                    <ul class="nav-hr">
                         <li><a href="/index.htm" class="anchor">Home</a></li>
                         <li><a href="/news.html" class="anchor">News</a></li>
                         <li><a href="/sports.html" class="anchor">Sports</a></li>
@@ -45,7 +45,7 @@
     <!-- nav closing -->
             <div class="logo-container">
                
-                <ul class="news-ul">
+                <ul class="news-ul nav-hr">
                     <li><a href="" class="anchor">Film & TV</a></li>
                     <li><a href="" class="anchor">Music</a></li>
                     <li><a href="" class="anchor">Art & Design</a></li>
@@ -61,7 +61,7 @@
             <hr class="horizontal">
 
 <main>
-        <h1  class="business-h1">Innovation</h1>
+        <h1  class="business-h1">Culture</h1>
         <hr class="horizontal">
 
         <div class="main-div">
@@ -91,96 +91,257 @@
 
 
 </main>
-        <section>
-            <div class="d-flex">
-                <div class="bottom-cards">
-                    <img src="/Assets/images/long life.webp" class="bottom-cards-imgs">
-                    <h1 class="middle-column-h1"><a class="anchor">Want to live a long life? Start prioritising friends</a></h1>
-                    <p>Your social network may influence your health as much as your exercise routine.</p>
-           
-                </div>
-                    <div class="bottom-cards">
-                        <img src="/Assets/images/sing.webp" class="bottom-cards-imgs">
-                        <h1 class="middle-column-h1"><a class="anchor">Want to live a long life? Start prioritising friends</a></h1>
-                        <p>Your social network may influence your health as much as your exercise routine.</p>
-           
-                    </div>
-            </div>
-    </section>
 
 
-    <article>
-        <div class="d-flex">
-            <!-- first article start -->
-            <div class="d-flex flex-column">
-                <div class="article-card shadow" data-aos="fade-up">
-                    <img src="/Assets/images/eu.webp" class="article-img"/>
-                        <div class="article-text-container">
-                            <h1 class="article-h1"><a href="" class="anchor">EU regulator rejects Alzheimer's drug lecanemab</a></h1>
-                            <p>It said the benefits of the treatment did not outweigh the risk of serious side effects.</p>
-                        </div>
-                </div>
-            </div>
-    
-            <!-- first article end -->
-    
-            <!-- second article start -->
-    
-            <div class="d-flex flex-column">
-                <div class="article-card shadow" data-aos="fade-up">
-                    <img src="/Assets/images/actors-strike.webp" class="article-img"/>
-                        <div class="article-text-container">
-                            <h1 class="article-h1"><a href="" class="anchor">Actors go on strike over video games AI threat</a></h1>
-                            <p> The union has been in talks with big games studios, like Activision and Walt Disney, for 18 months.</p>
-                        </div>
-                </div>
-            </div> 
-            
-            <!-- second article end -->
-    
-            <!-- third article start -->
-    
-            <div class="d-flex flex-column">
-                <div class="article-card shadow" data-aos="fade-up">
-                    <img src="/Assets/images/global-self.webp" class="article-img"/>
-                        <div class="article-text-container">
-                            <h1 class="article-h1"><a href="" class="anchor">What's behind the global self-storage boom?</a></h1>
-                            <p>Rising rents, e-commerce and available property are contributing to a boom in self-storage.</p>
-                        </div>
-                </div>
-    
-            </div> 
-            
-            <!-- third article end -->
-    
-            <!-- fourth article start -->
-            <div class="d-flex flex-column">
-                <div class="article-card shadow" data-aos="fade-up">
-                    <img src="/Assets/images/tech-decoded.webp" class="article-img"/>
-                        <div class="article-text-container">
-                            <h1 class="article-h1"><a href="" class="anchor">Tech Decoded: Sign up to our newsletter</a></h1>
-                            <p> Get timely, trusted tech news from BBC correspondents around the world, every Monday and Friday.</p>
-                        </div>
-                </div>
-            </div>  
-            
-             <!-- fourth article end -->
-    
-    
-            <div class="right-column d-flex flex-column justify-content-center" data-aos="fade-left">
-                <h1 class="left-column-h1"><a href="" class="anchor">Lawmaker uses AI voice clone to address Congress</a></h1>
-                <p>Virginia Congresswoman Jennifer Wexton has a rare neurological condition that makes it difficult for her to speak.</p>
-                <h1 class="left-column-h1"><a href="" class="anchor">ChatGPT reveals search feature in Google challenge</a></h1>
-                <p>OpenAI is working on adding new search powers to its artificial intelligence (AI) bot.</p>
-                
-            </div>
+<section>
+    <hr>
+    <h3 class="h3">Latest entertainment news &gt;</h3>
+    <div class="headings-container my-4">
+        <h4><a href="" class="anchor">EastEnders star Borthwick joins Strictly line-up</a></h4>
+        <h4><a href="" class="anchor">Gemma Collins advert for depression headset banned</a></h4>
+        <h4><a href="" class="anchor">Good Morning Britain show prompts 8,200 complaints</a></h4>
+        <h4><a href="" class="anchor">'He screamed in my face' - junior crew on Strictly Come Dancing speak out</a></h4>
+        <h4><a href="" class="anchor">Holly Humberstone: Swift gig a hard secret to keep</a></h4>
+    </div>
+    <hr>
+
+
+   
+    <h3 class="h3">Watch list &gt;</h3>
+    <div class="paris2">
+      <div>
+        <img src="/Assets/images/besttv.webp" class="left-column-image" />
+      </div>
+      <div class="paris-text">
+        <h2>Nine of the best TV shows to watch this August</h2>
+        <p>
+            From the latest series of Industry and Only Murders in the Building to a dark comic drama about Greek gods starring Jeff Goldblum.
+        </p>
+        <button class="button1 button2 button3">See More</button>
+      </div>
+    </div>
+
+    <div class="headings-container2 my-4">
+        <h4><a href="" class="anchor">10 of the best films to watch in August</a></h4>
+        <h4><a href="" class="anchor">Nine of the best TV shows to watch this July</a></h4>
+        <h4><a href="" class="anchor">11 of the best films to watch in July</a></h4>
+        <h4><a href="" class="anchor">10 of the best TV shows of 2024 so far</a></h4>
+        
+    </div>
+
+
+    <hr />
+    <h3 class="h3">More From Culture Editor</h3>
+       
+    <div class="more-news-3">
+      <div>
+        <img src="/Assets/images/twel.webp" class="left-column-image" />
+        <h4><a href="" class="more-news-cards-h4">12 striking pictures of abandoned buildings</a></h4>
+        <p>Striking photos of disused locations across the globe, from derelict shipyards and military bases to empty hotel resorts.</p>
+      </div>
+      <div>
+        <img src="/Assets/images/hod.webp" class="left-column-image" />
+        <h4><a href="" class="more-news-cards-h4">House of the Dragon is as bleak as it gets</a></h4>
+        <p>There's no-one to root for in this nihilistic spectacle about the horrors of war, as the characters "march towards annihilation".</p>
+      </div>
+      <div>
+        <img src="/Assets/images/proactive.webp" class="left-column-image" />
+        <h4><a href="" class="more-news-cards-h4">The provocative 80s rap that became an anthem</a></h4>
+        <p>NWA's Straight Outta Compton was released on 8 August 1988, bringing the sound of gangsta rap to the mainstream US. In History revisits an early interview with the rappers.</p>
+      </div>
+    </div>
+
+    <div class="more-news-3">
+        <div>
+          <img src="/Assets/images/cynic.webp" class="left-column-image" />
+          <h4><a href="" class="more-news-cards-h4">'The most cynical show on TV'</a></h4>
+          <p>Set in the cutthroat world of UK high finance, Industry is a Gen-Z Succession that's as ruthless as it is entertaining.</p>
         </div>
-    
-</article>
+        <div>
+          <img src="/Assets/images/ancient.webp" class="left-column-image" />
+          <h4><a href="" class="more-news-cards-h4">Ancient Egypt to Taylor Swift: The historic roots of the 'cat lady'</a></h4>
+          <p>With debates over the expression "childless cat ladies" dominating the 2024 US election, the BBC explores the historic links between women and their feline friends.</p>
+        </div>
+        <div>
+          <img src="/Assets/images/cult.webp" class="left-column-image" />
+          <h4><a href="" class="more-news-cards-h4">The cult 90s show that changed teen drama forever</a></h4>
+          <p>In 1994, My So-Called Life launched the career of Claire Danes – and depicted adolescence with rare authenticity. Its creator reflects on how it earned its place in TV history.</p>
+        </div>
+      </div>
+</section>
 
+
+
+<section>
+    <div class="must-watch">
+        <hr/>
+        <h3>watch</h3>
+        <div class="must-watch-video-container">
+            <div>
+                <img src="/Assets/images/half.webp" class="left-column-image"/>
+                <h3><a>Half-woman, half-snake: The mythical symbol inspiring Turkish artists</a></h3>
+                <p>The 'Shahmaran', a mythical figure in Turkish folklore, is 'the ruler of the snakes'.</p>
+            </div>
+            <div>
+                <img src="/Assets/images/hidden.webp" class="left-column-image"/>
+                <h3><a>The hidden world behind Claude Monet's art</a></h3>
+                <p>Find out how the rich culture of Normandy in Northern France inspired one of the world's greatest artists.</p>
+            </div>
+            <div class="must-watch-3">
+                <img src="/Assets/images/la.webp" class="left-column-image"/>
+                <h3><a>La Haine director Mathieu Kassovitz: Cinema is dying</a></h3>
+                <p>La Haine director Mathieu Kassovitz says Artificial Intelligence is replacing the role of movie makers.</p>
+            </div>
+            <div class="must-watch-3">
+                <img src="/Assets/images/talki.webp" class="left-column-image"/>
+                <h3><a>Talking Movies meets Past Lives director Celine Song</a></h3>
+                <p>Song, who was born in South Korea, was Oscar-nominated for Best Picture and Best Original Screenplay.</p>
+            </div>
+        </div>    
+
+    </div>
+
+
+    <hr />
+    <h3 class="h3">In History</h3>
+       
+    <div class="more-news-3">
+      <div>
+        <img src="/Assets/images/ww1.webp" class="left-column-image" />
+        <h4><a href="" class="more-news-cards-h4">The WW1 trauma that inspired The Lord of the Rings</a></h4>
+        <p>In a 1968 interview, the BBC spoke to author JRR Tolkien about how his experiences during World War One had a profound effect and influenced his fantasy epic, Lord of the Rings.</p>
+      </div>
+      <div>
+        <img src="/Assets/images/he.webp" class="left-column-image" />
+        <h4><a href="" class="more-news-cards-h4">'He was after my life': WW1 soldier's confession</a></h4>
+        <p>World War One broke out on 28 July, 1914. Fifty years later, one of the German soldiers, Stefan Westmann, told the BBC about his experiences fighting in the conflict.</p>
+      </div>
+      <div>
+        <img src="/Assets/images/Appollo.webp" class="left-column-image" />
+        <h4><a href="" class="more-news-cards-h4">Apollo 11 launch: 'It was no longer training – it was real'</a></h4>
+        <p>The space mission took off for the moon this week in 1969. To prepare the astronauts, Nasa put them through gruelling, relentless simulations – and the BBC paid a visit.</p>
+      </div>
+    </div>
+
+    <div class="more-news-3">
+        <div>
+          <img src="/Assets/images/therole.webp" class="left-column-image" />
+          <h4><a href="" class="more-news-cards-h4">'The role required me to cry, all day long'</a></h4>
+          <p>In a 1980 interview clip, US actress Shelley Duvall describes her intense role in horror classic The Shining, and what it was like to work with the director Stanley Kubrick.</p>
+        </div>
+        <div>
+          <img src="/Assets/images/thetrue.webp" class="left-column-image" />
+          <h4><a href="" class="more-news-cards-h4">The true story behind Chariots of Fire</a></h4>
+          <p>Scottish athlete Eric Liddell won the 400m gold at the Paris Olympics on 11 July 1924 – but he's just as famous for a race he didn't run.</p>
+        </div>
+        <div>
+          <img src="/Assets/images/jeff.webp" class="left-column-image" />
+          <h4><a href="" class="more-news-cards-h4">A 36-year-old Jeff Bezos talks about losing money</a></h4>
+          <p>Before Amazon was the top player in the ecommerce space, it was Jeff Bezos's "famously unprofitable company", as he said in an exclusive 2000 BBC Newsnight interview.</p>
+        </div>
+      </div>
+
+
+      <div class="must-watch">
+        <hr/>
+        <h3>watch</h3>
+        <div class="must-watch-video-container">
+            <div>
+                <img src="/Assets/images/Taylor Swift.webp" class="left-column-image"/>
+                <h3><a>Watch: Taylor Swift cancellation 'felt like a break-up'</a></h3>
+                <p>Jess, from Bristol, had a cry in the airport toilet after she found out the singer's Vienna gig was cancelled.</p>
+            </div>
+            <div>
+                <img src="/Assets/images/togo.webp" class="left-column-image"/>
+                <h3><a>'To go and play at the festival is fantastic'</a></h3>
+                <p>A Barrow-based band is put forward by BBC Introducing to play the festival's Calling Out stage.</p>
+            </div>
+            <div class="must-watch-3">
+                <img src="/Assets/images/bbcnot.webp" class="left-column-image"/>
+                <h3><a>BBC not aware of 'deeply disturbing' specifics, says Tim Davie</a></h3>
+                <p>The police told the BBC in November that its chief presenter Huw Edwards had been arrested, says director general Tim Davie.</p>
+            </div>
+            <div class="must-watch-3">
+                <img src="/Assets/images/revel.webp" class="left-column-image"/>
+                <h3><a>Watch: Revel Horwood reveals his trainer whacked students</a></h3>
+                <p>Craig Revel Horwood is asked how he learnt to dance after Strictly's professionals were accused of abusive behaviour.</p>
+            </div>
+        </div>    
+
+    </div>
+</section>
+     
+
+<section>
+    <hr />
+    <h3 class="h3">More Culture</h3>
+    <div class="heading-image">
+      <div class="bottom-lines-imgs">
+        <div>
+          <h4><a href="" class="more-news-cards-h4" id="house">How would you react to prison museum's 'dark tourism'?</a></h4>
+          <p>Researchers exploring so-called "dark tourism" are analysing the reactions of visitors to the most gruesome parts of Peterhead Prison Museum.</p>
+        </div>
+        <img src="/Assets/images/prision.webp" class="middle-column-img"/>
+      </div>
+
+      <hr />
+
+      <div class="bottom-lines-imgs">
+        <div>
+          <h4><a href="" class="more-news-cards-h4" id="house">The Scottish horror film 17 years in the making</a></h4>
+          <p>The Bench is a grisly slasher where a group of friends take a trip to a remote cabin in Renfrewshire, only to disappear one by one.</p>
+        </div>
+        <img src="/Assets/images/thebeach.webp" class="middle-column-img" />
+      </div>
+
+      <hr />
+
+      <div class="bottom-lines-imgs">
+        <div>
+          <h4>
+            <a href="" class="more-news-cards-h4" id="house">Blind group collaborates on tactile exhibition</a></h4>
+          <p>Chancellor Rachel Reeves has refused to rule out whether she will increase the rate of capital gains tax in her autumn Budget.</p>
+        </div>
+        <img src="/Assets/images/tactile.webp" class="middle-column-img"/>
+      </div>
+
+      <hr />
+
+      <div class="bottom-lines-imgs">
+        <div>
+          <h4><a href="" class="more-news-cards-h4" id="house">Lauryn Hill confirms Welsh one-off gig to go ahead</a></h4>
+          <p>It Hurt so Bad when they heard her US shows were cancelled.</p>
+        </div>
+        <img src="/Assets/images/lauryn.webp" class="middle-column-img"/>
+      </div>
+
+      <hr />
+
+      <div class="bottom-lines-imgs">
+          <div>
+              <h4><a href="" class="more-news-cards-h4" id="house">Teen planned 'explosives and knives' attack at Swift concert</a></h4>
+              <p>Austrian security officials say a 19-year-old arrested on Wednesday was planning to kill "</p>
+            </div>
+        <img src="/Assets/images/crazy.webp" class="middle-column-img"/>
+      </div>
+
+      <hr />
+
+      <div class="bottom-lines-imgs">
+          <div>
+              <h4><a href="" class="more-news-cards-h4" id="house">Zombies to sci-fi opera: Worldcon arrives in Glasgow</a></h4>
+              <p>Two of the earliest pioneers of photojournalism, who captured groundbreaking images of street life</p>
+            </div>
+        <img src="/Assets/images/zombies.webp" class="middle-column-img"/>
+      </div>
+    </div>
+    
+  </section>
+
+   
     <footer>
         <div class="footer-section">
-            <a href="/index.htm"><img src="/Assets/images/bbc iogo.png" class="logo"></a>
+            <a href="/index.htm"><img src="/Assets/images/bbc iogo.png" class="logo-bottom"></a>
             <ul class="footer-section ul">
                 <li><a href="" class="anchor">Home</a></li>
                 <li><a href="/news.html" class="anchor">News</a></li>

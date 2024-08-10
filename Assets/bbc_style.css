@@ -276,6 +276,7 @@ ul{
     position: relative;
     
 }
+
 .travel-mid-img{
     width: 98%;
     margin: 1%;
@@ -289,12 +290,11 @@ ul{
     width: 40%;
     height: 30%;
     position: absolute;
-    top: 120%;
+    top: 129%;
     padding: 10px;
     margin: 5px;
-    
-  
 }
+
 .card-h1{
     font-size: 40px;
     font-family: "BBC Reith Serif", "Helvetica", "Arial", "sans-serif";
@@ -302,13 +302,12 @@ ul{
 }
 .tra-holder{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
-    row-gap: 3%;
-    margin: 3%;
-    column-gap: 4%;
+    grid-template-columns: 49% 49%;
+    margin: 1%;
+    column-gap: 1%;
 }
 .tra-img1{
-    width: 88%;
+    width: 100%;
 }
 #icon{
     font-size: 25px ;
@@ -467,6 +466,9 @@ a:hover{
 .headings-container h4{
     font-size: 18px;
 }
+.headings-container2 h4{
+    font-size: 18px;
+}
 .headings-container-for-news{
     display: grid;
     grid-template-columns: 49% 49%;
@@ -491,4 +493,10 @@ a:hover{
 }
 #house{
     font-size: 24px;
+}
+.headings-container2{
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+    column-gap: 1%;
+    margin: 2%;
 }
