@@ -7,6 +7,16 @@
         height: 3px;
         background-color: #000000;
     }
+    .travel-card {
+        margin: 10px;
+        background-color: white;
+        width: 40%;
+        height: 60%;
+        position: absolute;
+        top: 129%;
+        padding: 10px;
+        margin: 5px;
+    }
     
 }
  
@@ -14,6 +24,20 @@
 
 
 @media(max-width:768px){
+    .card-h1 {
+        font-size: 20px;
+        font-family: "BBC Reith Serif", "Helvetica", "Arial", "sans-serif";
+    }
+    .travel-card {
+        margin: 10px;
+        background-color: white;
+        width: 40%;
+        height: 40%;
+        position: absolute;
+        top: 100%;
+        padding: 10px;
+        margin: 5px;
+    }
     .nav-hr{
         display: none;
     }
@@ -288,7 +312,45 @@
         row-gap: 7%;
         margin: 2%;
     }
-       
+    .travel-card {
+        margin: 10px;
+        background-color: white;
+        width: 60%;
+        height: 30%;
+        position: absolute;
+        top: 48%;
+        padding: 10px;
+        margin: 5px;
+    }
+    .card-h1{
+        font-size: 14px;
+    }
+    .travel-card p{
+        font-size: 10px;
+    }
+    .tra-holder {
+        display: grid;
+        grid-template-columns: 98%;
+        margin: 1%;
+        column-gap: 1%;
+    }
+    .eath-banner {
+        display: grid;
+        grid-template-columns: 99%;
+        margin: 1%;
+        column-gap: 1%;
+    }
+    .live-card {
+        display: grid;
+        grid-template-columns: 100%;
+        column-gap: 1%;
+        margin-bottom: 5%;
+    }
+    .button3 {
+        border: 2px solid #000000;
+        width: 50%;
+        margin-bottom: 5%;
+    }
 
     }
    
