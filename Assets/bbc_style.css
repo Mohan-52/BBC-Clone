@@ -500,3 +500,27 @@ a:hover{
     column-gap: 1%;
     margin: 2%;
 }
+.eath-banner{
+    display: grid;
+    grid-template-columns: 74% 25%;
+    margin:1%;
+    column-gap: 1%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.live-card{
+    display: grid;
+    grid-template-columns: 70% 29%;
+    column-gap: 1%;
+    margin-bottom: 5%;
+}
+.live-card-holder{
+    width: 60%;
+    margin: 2% 0% 0% 5%;
+}
+.live-card h1{
+    font-size: 30px;
+}
