@@ -540,3 +540,7 @@ video{
     width: 100vw;
     height: 80vh;
 }
+.grid1{
+    display: grid;
+    grid-template-columns: 49% 49%;
+}

@@ -351,6 +351,25 @@
         width: 50%;
         margin-bottom: 5%;
     }
+    .sports1{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    .grid1{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    .sports-left-col {
+        margin-left: 20px;
+        width: 90%;
+    }
+    .sports-middle-col {
+        margin: 2%;
+    }
+    .sports-left-col{
+        margin: 1%;
+        width:98%;
+    }
 
     }
    
