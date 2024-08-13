@@ -370,6 +370,12 @@
         margin: 1%;
         width:98%;
     }
+    .languages{
+        display: grid;
+        grid-template-columns: 98% ;
+        margin: 0 auto;
+        width: 100vw;
+    }
 
     }
    
