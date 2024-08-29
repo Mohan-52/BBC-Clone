@@ -17,8 +17,8 @@
             <div class="logo-container">
                 <div class="first-line">
                     <div class="nav-icon-container">
-                        <i class="fa-solid fa-bars"  id="icon" ></i>
-                        <i class="fa-solid fa-magnifying-glass"  id="icon" ></i>
+                        <i class="fa-solid fa-bars"  id="icon" onclick="openAndClose('ham')"></i>
+                        <i class="fa-solid fa-magnifying-glass"  id="icon" onclick="openAndClose('ham')"></i>
                     </div>
                     <a href="/index.htm"><img src="/Assets/images/bbc iogo.png" class="logo"></a>
                     <div class="nav-button-container">
@@ -66,6 +66,128 @@
     </div>    
               
 
+    <section class="hamburger" id="ham">
+        <div class="input-icon" >
+            <input type="text" placeholder="search news, topic and more" class="hamburger-input"/>
+            <div class="magnifying"><i class="fa-solid fa-magnifying-glass icon-color"  id="icon" ></i></div>
+        </div>
+        <div>
+                <div class="hamburger-list">
+                    <h4 class="hamburger-h4"><a href="" class="anchor2">Home</a> </h4>
+                </div>
+            <div class="hamburger-list">
+                <div class="d-flex justify-content-between align-items-center">
+                    <h4 class="hamburger-h4"><a href="" class="anchor2"> News</a></h4>
+                    <i class="fa-solid fa-circle-chevron-down" id="icons" onclick="openAndClose('droupdown-in-ham')"></i>
+                </div>
+                <div id="droupdown-in-ham">
+                    <a class="anchor2">News</a>
+                    <a class="anchor2">Israel gaza war</a>
+                    <a class="anchor2">War in Ukraine</a>
+                    <a class="anchor2">US Elections</a>
+                    <a class="anchor2">UK</a>
+                    <a class="anchor2">US & Canada</a>
+                </div>
+            </div>
+            <div class="hamburger-list">
+                <h4 class="hamburger-h4"><a href="" class="anchor2">Sport</a></h4>
+            </div>
+            <div class="hamburger-list">
+                <div class="d-flex justify-content-between align-items-center">
+                    <h4 class="hamburger-h4"><a href="" class="anchor2"> Business</a></h4>
+                    <i class="fa-solid fa-circle-chevron-down" id="icons" onclick="openAndClose('droupdown-in-business')"></i>
+                </div>
+                <div id="droupdown-in-business">
+                    <a class="anchor2">Business</a>
+                    <a class="anchor2">Excange Lounge</a>
+                    <a class="anchor2">Technology of Business</a>
+                    <a class="anchor2">Women at the Helm</a>
+                    <a class="anchor2">Future of Business</a>
+                    <a class="anchor2">Market Data</a>
+                </div>
+            </div>
+            <div class="hamburger-list">
+                <div class="d-flex justify-content-between align-items-center">
+                    <h4 class="hamburger-h4"><a href="" class="anchor2">Innovation</a> </h4>
+                    <i class="fa-solid fa-circle-chevron-down" id="icons" onclick="openAndClose('droupdown-in-Innovation')"></i>
+                </div>
+                <div id="droupdown-in-Innovation">
+                    <a class="anchor2">Innovation</a>
+                    <a class="anchor2">Technology</a>
+                    <a class="anchor2">Technology of Business</a>
+                    <a class="anchor2">Science and Health</a>
+                    <a class="anchor2">AI Vs Mind</a>
+                    <a class="anchor2">Artificial Intelligence</a>
+                </div>
+            </div>
+            <div class="hamburger-list">
+                <div class="d-flex justify-content-between align-items-center">
+                    <h4 class="hamburger-h4"><a href="" class="anchor2">Culture</a> </h4>
+                    <i class="fa-solid fa-circle-chevron-down" id="icons" onclick="openAndClose('droupdown-in-culure')"></i>
+                </div>
+                <div id="droupdown-in-culure">
+                    <a class="anchor2">Culture</a>
+                    <a class="anchor2">Film & TV</a>
+                    <a class="anchor2">Music</a>
+                    <a class="anchor2">Art Design</a>
+                    <a class="anchor2">Style</a>
+                    <a class="anchor2">Books</a>
+                </div>
+            </div>
+            <div class="hamburger-list">
+                <div class="d-flex justify-content-between align-items-center">
+                    <h4 class="hamburger-h4"> <a href="" class="anchor2">Travel</a> </h4>
+                    <i class="fa-solid fa-circle-chevron-down" id="icons" onclick="openAndClose('droupdown-in-travel')"></i>
+                </div>
+                <div id="droupdown-in-travel">
+                    <a class="anchor2">Travel</a>
+                    <a class="anchor2">Destinations</a>
+                    <a class="anchor2">Worlds Table</a>
+                    <a class="anchor2">Culture Experience</a>
+                    <a class="anchor2">Adventures</a>
+                    <a class="anchor2">The Special List</a>
+                </div>
+            </div>
+            <div class="hamburger-list">
+                <div class="d-flex justify-content-between align-items-center">
+                    <h4 class="hamburger-h4"><a href="" class="anchor2">Earth</a> </h4>
+                    <i class="fa-solid fa-circle-chevron-down" id="icons"  onclick="openAndClose('droupdown-in-earth')"></i>
+                </div>
+                <div id="droupdown-in-earth">
+                    <a class="anchor2">Earth</a>
+                    <a class="anchor2">Natural Wonders</a>
+                    <a class="anchor2">Weather & Wonders</a>
+                    <a class="anchor2">Climate Solutons</a>
+                    <a class="anchor2">Sustainable Business</a>
+                    <a class="anchor2">Green Living</a>
+                </div>
+            </div>
+            <div class="hamburger-list">
+                <h4 class="hamburger-h4"><a href="" class="anchor2"> Video</a></h4>
+            </div>
+            <div class="hamburger-list">
+                <div class="d-flex justify-content-between align-items-center">
+                    <h4 class="hamburger-h4"><a href="" class="anchor2">Live</a> </h4>
+                    <i class="fa-solid fa-circle-chevron-down" id="icons" onclick="openAndClose('droupdown-in-live')"></i>
+                </div>
+                <div id="droupdown-in-live">
+                    <a class="anchor2">Live</a>
+                    <a class="anchor2">Live News</a>
+                    <a class="anchor2">Live Sports</a>
+                    
+                </div>
+            </div>
+            <div class="hamburger-list">
+                <h4 class="hamburger-h4"><a class="anchor2">Audio</a> </h4>
+            </div>
+            <div class="hamburger-list">
+                <h4 class="hamburger-h4"><a class="anchor2">Weather</a> </h4>
+            </div>
+            <div class="hamburger-list">
+                <h4 class="hamburger-h4"><a class="anchor2">Newsletters</a></h4>
+            </div>
+        </div>
+    </section>
     
 
     <!-- main opening -->
@@ -560,6 +682,8 @@
         </div>
 </footer>  
     <!-- footer closing -->
+    <a href="#" class="link"><i class="fa-solid fa-caret-up"></i></a>
+    <script type="text/javascript" src="/Assets/main.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 <script src="https://kit.fontawesome.com/f26c9ec4a7.js" crossorigin="anonymous"></script>
 

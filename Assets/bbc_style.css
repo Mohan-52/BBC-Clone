@@ -186,7 +186,7 @@ ul{
 .main-nav{
     position: sticky;
     top: 0; 
-    z-index: 999;
+    z-index: 1;
     width: 100vw;
     background-color: white;
 }
@@ -583,4 +583,190 @@ video{
 }
 .lis{
     line-height: 0.7;
+}
+
+.Regis{
+    width: 40%;
+    margin-bottom: 2%;
+}
+
+#email{
+    background-color: #000000;
+    border: none;
+    border-bottom: 2px solid white;
+    width: 50%;
+    
+}
+.link{
+    color:white;
+    text-decoration: none;
+}
+.link:hover{
+    text-decoration: underline;
+}
+.forms{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 100vw;
+    height: 100vh;
+    background-color: #000000;
+}
+.form-img{
+    width:80%;
+    height: 80%;
+    
+}
+.form-text{
+    text-align: center;
+    color: #fff;
+}
+.but{
+   display: block;
+    margin: 2% auto;
+    border: none;
+    background-color: rgb(16, 127, 217);
+    color: white;
+    padding: 2% 20%;
+}
+.para{
+    display: inline;
+}
+.butt{
+    border:none;
+    width:6%;
+    position: relative;
+    left: 80%;
+    top:-35%;
+   }
+.icons{
+   font: 10px;
+}
+.allforms{
+    display: none;
+}
+
+.hamburger-input{
+    width: 230px;
+    text-align: center;
+    height: 50px;
+    margin-left: 5px;
+}
+.magnifying{
+    width:50px;
+    height: 50px;
+    background-color: black;
+    
+}
+
+.icon-color{
+    color: #fff;
+    
+}
+.input-icon{
+    display: flex;
+    background-color: rgb(246, 246, 246);
+    height: 60px;
+    width: 300px;
+    padding-top: 5px;
+}
+.hamburger{
+    width: 25%;
+    position: fixed;
+    top: 10%;
+    height: 90vh;
+    overflow-y: auto;
+    display: none;
+    z-index: 22;
+    background-color: rgb(246, 246, 246);
+   
+}
+.hamburger-h4:hover{
+    background-color: hsl(0, 25%, 97%);
+  
+}
+.hamburger-h4{
+    font-size: 20px;
+}
+
+
+.hamburger-list{
+    padding: 5px;
+    justify-content: space-between;
+    
+}
+.droupdown-in-ham a:hover{
+    background-color: hsl(0, 25%, 97%);
+}
+.anchor2{
+    display: block;
+    text-decoration: none;
+    color: #000000;
+    padding:5px;
+}
+#droupdown-in-ham{
+    display: none;
+}
+
+#icons{
+    display:block;
+    font-size: 23px;
+}
+#droupdown-in-business{
+    display: none;
+}
+
+.droupdown-in-business a:hover{
+    background-color: hsl(0, 25%, 97%);
+}
+
+
+
+#droupdown-in-Innovation{
+    display: none;
+}
+
+.droupdown-in-Innovation a:hover{
+    background-color: hsl(0, 25%, 97%);
+}
+#droupdown-in-culure{
+    display:none;
+}
+
+.droupdown-in-culture a:hover{
+    background-color: hsl(0, 25%, 97%);
+}
+#droupdown-in-travel{
+    display:none;
+}
+
+.droupdown-in-travel a:hover{
+    background-color: hsl(0, 25%, 97%);
+}
+#droupdown-in-earth{
+    display:none;
+}
+
+.droupdown-in-earth a:hover{
+    background-color: hsl(0, 25%, 97%);
+}
+#droupdown-in-live{
+    display:none;
+}
+
+.droupdown-in-live a:hover{
+    background-color: hsl(0, 25%, 97%);
+}
+.link{
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    background-color: #1c1c1c;
+    color: #fff;
+    border-radius: 25%;
+    padding: 13px;
+    transform: scale(0);
+   
+}
+.link-active{
+    transform: scale(1);
 }
