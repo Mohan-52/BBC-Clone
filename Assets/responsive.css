@@ -125,7 +125,7 @@
     }
    
 }
-@media (min-width: 320px) and (max-width: 430px) {
+@media (min-width: 0px) and (max-width: 430px) {
     .headings-container-for-news {
         display: grid;
         grid-template-columns: 99%;
